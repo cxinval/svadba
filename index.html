@@ -1,43 +1,79 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Приглашение на свадьбу</title>
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
 </head>
+
 <body>
   <header class="header">
-    <div class="header-paralax">
+    <div class="container">
+      <div class="header-wrap">
+        <div class="header-nav">
+          <a href="#" class="header-nav__link">главная</a>
+          <a href="#" class="header-nav__link">о нас</a>
+          <a href="#" class="header-nav__link">свадьба</a>
+          <a href="#" class="header-nav__link">спасибо</a>
+        </div>
+        <h1 class="header-title">мы женимся</h1>
+        <h2 class="header-subtitle">08.08. 20211г. 16:00 | Ресторан “На озере”</h2>
+      </div>
     </div>
   </header>
-  <div class="main">
+  <section class="about">
     <div class="container">
-      <h1 class="main-title">Здраствуй Дорогой гость!</h1>
-      <div class="main-card">
-        <img src="img/2.jpg" alt="" class="main-card__img">
-        <span class="main-card__title">Мы приглашаем тебя на наше торжесто.</span>
+      <div class="about-wrap">
+        <h2 class="about__title">Как мы познакомились</h2>
+        <span class="about__subtitle">15 декабря 2019 года, стала той датой когда мы первый раз увидились и
+          познакомились, после чего я долго думал как же все
+          таки захватить эту непреступную крепость, но стустя 2 недели нашего общения мне все таки удалось это сделать.
+          И вот 2
+          января 2020 г. мы начали встречаться. 9.02.2020 я сделал Марине предложение.</span>
+        <img src="" alt="" class="about-img">
       </div>
-      <div class="main-card">
-        <span class="main-card__title">Которое состоиться 08.08.2021 г. В 16:00</span>
-        <img src="img/3.jpg" alt="" class="main-card__img">
-      </div>
-      <div class="main-card">
-        <div class="map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4991.91579661437!2d36.76193997775139!3d50.6043236009925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7eeb6e8d63a99d73!2z0JfQsNCz0L7RgNC-0LTQvdGL0Lkg0LrQvtC80L_Qu9C10LrRgSDCq9Cd0LAg0J7Qt9C10YDQtcK7!5e1!3m2!1sru!2sru!4v1623343015831!5m2!1sru!2sru"
-            width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <div class="about-wedding">
+        <h2 class="about-wedding__title">Свадьба</h2>
+        <div class="about-blogs">
+          <div class="about-blog">
+            <div class="about-blog__title">Когда</div>
+            <div class="about-blog__subtitle">08.08.2021г.,16:00</div>
+          </div>
+          <div class="about-blog">
+            <div class="about-blog__title">Где</div>
+            <div class="about-blog__subtitle">Белгородская обл.,Белгородский р-н,с. Ястребово,ул. Кидалова 1г</div>
+          </div>
         </div>
-        <span class="main-card__title">В Белгородская обл., Белгородский р-н, с. Ястребово, ул. Кидалова 1г.</span>
       </div>
     </div>
-    <footer class="footer">
-      <div class="footer-block">
-        <span class="footer-title">Ждем Вас у нас в гостях !</span>
+  </section>
+  <section class="thanks">
+    <div class="container">
+      <div class="thanks-wrap">
+        <h2 class="thanks__title">Спасибо Вам!</h2>
+        <span class="thanks__subtitle">Мы Вас благодарим за то, что вы
+          разделите с нами это важный для нас день</span>
       </div>
-    </footer>
-  </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-wrap">
+        <svg class="footer__icon" width="155" height="54" viewBox="0 0 155 54" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M151.631 53.2305C150.736 53.2315 149.877 52.9986 149.244 52.5827L77.4783 5.35179L5.71237 52.5827C4.37353 53.4339 2.23965 53.4095 0.946309 52.5283C-0.315436 51.6686 -0.315436 50.306 0.946309 49.4464L75.0986 0.649401C76.4146 -0.216467 78.5482 -0.216467 79.8646 0.649401L154.017 49.4464C155.331 50.3139 155.328 51.7183 154.009 52.5832C153.378 52.9976 152.522 53.2303 151.631 53.2305Z"
+            fill="#353434" />
+        </svg>
+        <span class="footer__title">наверх</span>
+      </div>
+    </div>
+  </footer>
   <script src="js/main.js"></script>
 </body>
+
 </html>
